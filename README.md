@@ -17,6 +17,14 @@ As the code is written to accompany the book, I don't intend to add
 new features. However, bug reports are welcome, and you should feel
 free to fork and modify the code.
 
+>>>note!!
+* 1、TypeError: object of type 'zip' has no len()、'zip' object is not subscriptable
+解决方案：
+将所有用到zip的部分都变成list(zip(....))
+
+* 2、Xrange都改为range，因为python3里面好像移除了xrange
+* 3、将`import cpickle` 改成  `import_pickle as cPickle`  或者直接改为 `import pickle`
+
 ## License
 
 MIT License
