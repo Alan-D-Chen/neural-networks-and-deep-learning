@@ -24,7 +24,7 @@ free to fork and modify the code.
 
 * 2、Xrange都改为range，因为python3里面好像移除了xrange
 * 3、将`import cpickle` 改成  `import_pickle as cPickle`  或者直接改为 `import pickle`
-
+* 4、[强烈推荐](https://www.geek-share.com/detail/2727756937.html)
 ## License
 
 MIT License
